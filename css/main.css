@@ -1958,7 +1958,7 @@ input::-moz-focus-inner {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	text-align: left;
-	color: #40E0D0;
+	color: #FCA706;
 }
 
 @media only screen and (max-width: 400px) {
@@ -1967,7 +1967,6 @@ input::-moz-focus-inner {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     text-align: left;
-    color: #40E0D0;
   }
 }
 
