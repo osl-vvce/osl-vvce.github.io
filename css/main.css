@@ -1921,11 +1921,11 @@ input::-moz-focus-inner {
   position: relative;
 }
 .home-content h1 {
-  font-family: "domine-bold", sans-serif;
+  font-family: "articulat", "domine-bold", sans-serif;
   font-size: 9rem;
   line-height: 1.1;
   margin-top: 0;
-  color: #ffffff;
+  color: #f3dbcc;
 }
 .home-content h1 + p {
   font-family: "metropolis-light", sans-serif;
