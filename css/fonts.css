@@ -25,8 +25,33 @@
  * articulat
 ================================================================================ */
 @font-face {
-  font-family: articulat;
+  font-family: articulat-heavy;
   src: url('../fonts/articulat/ArticulatCF-Heavy.ttf');
+}
+
+@font-face {
+  font-family: articulat-light;
+  src: url('../fonts/articulat/ArticulatCF-Light.ttf');
+}
+
+@font-face {
+  font-family: articulat-regular;
+  src: url('../fonts/articulat/ArticulatCF-Text.ttf');
+}
+
+@font-face {
+  font-family: articulat-semibold;
+  src: url('../fonts/articulat/ArticulatCFv2-DemiBold.ttf');
+}
+
+@font-face {
+  font-family: articulat-italic;
+  src: url('../fonts/articulat/ArticulatCF-TextOblique.ttf');
+}
+
+@font-face {
+  font-family: articulat-bold;
+  src: url('../fonts/articulat/ArticulatCFv2-Bold.ttf');
 }
 
 /*
