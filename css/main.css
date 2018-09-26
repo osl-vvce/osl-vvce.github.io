@@ -3644,4 +3644,29 @@ html.no-csstransitions .home-content__main {
   }
 }
 
+/*** Mozilla WebVR Workshop button ***/
+
+#mozilla {
+  width: 132px;
+  height: 50px;
+}
+
+#webvr {
+  height: 70px;
+  font-size: 50px;
+  padding-top: 10px;
+  position: absolute;
+  bottom: 6px;
+  color: white;
+  background-color: #000000;
+  border: none;
+  text-transform: none;
+}
+#mozilla-logo {
+  font-family: ZillaSlabHighlight-Bold;
+  color: #fca706;
+  position: absolute;
+  font-size: 60px;
+}
+
 /*# sourceMappingURL=main.css.map */

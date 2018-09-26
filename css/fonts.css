@@ -22,6 +22,14 @@
 }
 
 /*
+ * zilla-slab
+================================================================================ */
+@font-face {
+  font-family: ZillaSlabHighlight-Bold;
+  src: url('../fonts/zilla-slab/ZillaSlabHighlight-Bold.otf');
+}
+
+/*
  * articulat
 ================================================================================ */
 @font-face {
