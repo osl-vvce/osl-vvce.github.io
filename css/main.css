@@ -3659,7 +3659,7 @@ html.no-csstransitions .home-content__main {
   text-transform: none;
 }
 #webvr:hover {
-  background-color: #e12143; 
+  background-color: #4CAF50; 
 }
 #mozilla-logo {
   font-family: ZillaSlabHighlight-Bold;
@@ -3688,7 +3688,7 @@ html.no-csstransitions .home-content__main {
     height: 20px;
     font-size: 18px;
     position: absolute;
-    left: 108px;
+    left: 1px;
     bottom: 8px;
     padding-top: 0px;
     padding-bottom: 40px;
