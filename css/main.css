@@ -3133,14 +3133,14 @@ html.no-csstransitions .home-content__main {
 .stats {
   text-align: center;
 }
-.stats__col {
+.stats__col{
   margin: 5.4rem 0;
   padding: 0 2rem;
   position: relative;
   overflow: hidden;
   white-space: nowrap;
 }
-.stats__count {
+.stats__count, #timings{
   font-family: "articulat-light", sans-serif;
   font-size: 9.2rem;
   line-height: 1;
@@ -3150,17 +3150,6 @@ html.no-csstransitions .home-content__main {
   text-overflow: ellipsis;
   white-space: nowrap;
   position: relative;
-}
-.stats__count::after {
-  display: block;
-  content: "";
-  height: 1px;
-  width: 100px;
-  background-color: rgba(255, 255, 255, 0.1);
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  margin-left: -50px;
 }
 .stats h5 {
   font-family: "articulat-regular", sans-serif;
@@ -3724,6 +3713,9 @@ html.no-csstransitions .home-content__main {
     padding: 0px 10px;
     bottom: -60px;
     left: 2px;
+  }
+  .register {
+    width: 125px;
   }
 }
 
