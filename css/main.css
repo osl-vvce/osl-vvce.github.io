@@ -3658,9 +3658,7 @@ html.no-csstransitions .home-content__main {
   border: none;
   text-transform: none;
 }
-#webvr:hover {
-  background-color: #4CAF50; 
-}
+
 #mozilla-logo {
   font-family: ZillaSlabHighlight-Bold;
   color: #fca706;
@@ -3683,18 +3681,49 @@ html.no-csstransitions .home-content__main {
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px)  {
   #webvr {
     height: 20px;
     font-size: 18px;
     position: absolute;
-    left: 1px;
+    left: 111px;
     bottom: 8px;
     padding-top: 0px;
     padding-bottom: 40px;
   }
   #mozilla-logo {
     font-size: 32px;
+  }
+}
+
+#regnow {
+  font-size: 30px;
+  color: #ffffff;
+  background: none;
+  border: solid #ffffff 3px;
+  border-radius: 20px;
+  position: relative;
+  bottom: -100px;
+  left: 266px;
+}
+
+#regnow:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+@media only screen and (max-width: 450px) {
+  #regnow {
+    font-size: 20px;
+    color: #ffffff;
+    background: none;
+    border: solid #ffffff 3px;
+    border-radius: 20px;
+    position: relative;
+    margin: 0px;
+    padding: 0px 10px;
+    bottom: -60px;
+    left: 2px;
   }
 }
 
