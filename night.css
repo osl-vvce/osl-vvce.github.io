@@ -1,0 +1,327 @@
+body,html{
+    font-family: Arial,sans-serif;
+}
+.header{
+    background-image: linear-gradient(to bottom right,#3d528f,#575e75,#3d528f);
+    width: 100%;
+    height: 400px;
+    position: relative;
+    color: white;
+}
+.osl-logo{
+    position: absolute;
+    left: 16px;
+    top: 8px;
+    overflow: hidden;
+    height: auto;
+}
+/* Responsive logo */
+@media screen and (max-width: 600px){
+    .osl-logo{
+        height:50px;
+    }
+}
+    
+.top-links{
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+    list-style-type: none;
+    overflow: hidden;
+}
+.top-links li{
+    display: inline;  
+}
+.top-links h5{
+    padding: 15px;
+    display: inline;
+    text-align: center; 
+    color: white;    
+}
+.top-links a{
+    display: inline;
+    padding: 15px;
+    text-align: center; 
+    color: white;
+    text-decoration: none;
+}
+/*Responsive top-links */
+@media screen and (max-width: 600px){
+  .top-links h5, .top-links a{
+    padding: 5px;
+    font-size:15px;
+  }
+}
+
+.tab{
+    overflow: hidden;
+}
+.tab .tablink{
+    float: left;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    background-color:#0392c3;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px; 
+    font-size: 17px;
+    transition: 0.3s;
+    width: 33.33%;
+}
+.active, .tablink:focus, .tablink:hover{
+    background-color: #444;
+    color: #fff;
+}
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links side by side accordingly */
+@media screen and (max-width: 400px) {
+    .tab .tablink {
+      float: left;
+      width: 33.3%;
+    }
+  }
+.tabContent{
+    display: none;
+    padding: 10px 20px;
+    width: auto;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s; 
+}
+@-webkit-keyframes fadeEffect{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+@keyframes fadeEffect{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.col-half{
+    float:left;
+    width: 50%;
+}
+.process__text{
+    text-align: left;
+    line-height: 1.7;
+    word-spacing: 0.5px;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+    .col-half {
+      width: 100%;
+    }
+  }
+  
+.tabContent,.testimonials__slide,.bottom-navigation{
+    background-color: #2a2a2e;
+    color: #bbb;
+  }
+.testimonials__slider{
+    position: relative;
+    background: #fff;
+}
+.testimonials__slide{
+    display: none;
+    padding: 30px;
+}
+.testimonials__avatar{
+    float: left;
+    margin-right: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.testimonials__author{
+    color: cornflowerblue;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+  /* Hide next and previous button of testimonial container  */
+@media screen and (max-width: 600px) {
+ .prev, .next{
+   display: none;
+ } 
+}
+.dot-container {
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Responsive testimonial container */
+@media (max-width: 500px) {
+    .testimonials__slider,.testimonials__slide,.testimonials__author {
+      text-align: center;
+    }
+    .dot{
+      margin: 10px;
+      background-color: #bbb;
+    }
+    .dot:hover{
+      background-color: #fff;
+    }
+    .testimonials__avatar{
+      margin: auto;
+      float: none;
+      display: block;
+    }
+  }
+  
+.row_stats{
+    margin-top: 50px;
+    width: 100%;
+    display: inline-block;
+}
+
+  /* On screens that are 600px wide or less, go from four columns to two columns */
+@media screen and (max-width: 600px) {
+    .row_stats {
+      width: 100%;
+    }
+  }
+  
+.stats__col{
+    width: 25%;
+    height: 75%; 
+    float:left;
+    text-align: center;
+    box-shadow: 4px 4px 0 0 rgba(0, 0, 0, 0.2);
+    background-color: #444;
+    }
+
+.stats__count, .timings, h5 {
+    text-align: center;
+    padding-top: 16px;
+    font-size: 16px;
+    color: white;  
+} 
+@media screen and (max-width: 600px){
+  .stats__col, .timings, h5 {
+    font-size: 15px;
+  }
+}
+
+.bottom-navigation{
+    background-color: #111111;
+    color:#d6d2d2;
+    padding: 10px;
+}
+.row-contact{
+    float: left;
+    width: 40%;   
+}
+.Contact{
+  padding: 5px;
+  font-size: 15px;
+}
+.contact-email{
+    color: #fff;
+    font-size: 30px;
+    padding: 5px;
+    position: relative;
+    border-bottom: 1px solid transparent;
+    display: inline-block;
+}
+.contact-number{
+    font-size: 30px;
+    padding: 5px;
+    line-height: 1.7;
+    display: block;
+}
+/* Responsive text for contact */
+@media screen and (max-width: 600px) {
+  .contact-email, .contact-number{
+    font-size: 16px;
+  }
+}
+
+.column{
+    float: left;
+    padding: 10px;
+}
+.social-link li{
+    display: inline;
+}
+.social-link a{
+    text-decoration: none;
+    color: white;
+    margin-inline-end: 14px;
+    background-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+.row-address::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.top{
+    position: relative;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: 50px;
+    z-index: 99;
+    background-color: #000;
+    color: white;
+    padding: 18px;/*Some padding */
+    border-radius: 50%; /* Rounded corners */
+    font-size: 18px; /* Increase font size */    
+}
+
+/* Hide the go to top button in mobile view */
+@media screen and (max-width: 600px) {
+  .top{
+    display: none;
+  } 
+ }
+ 
+.middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+    
