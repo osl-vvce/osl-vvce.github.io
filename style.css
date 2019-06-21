@@ -15,16 +15,22 @@ font-family: Arial,sans-serif;
     overflow: hidden;
     height: auto;
 }
-/* Dark mode */
-@media screen and (max-width:600px){
+/* Dark mode of website based on preference*/
+@media (prefers-color-scheme: dark){
+  .html {
+		filter: invert(100%);
+	}
   .header{
     background-image: linear-gradient(to bottom right,#3d528f,#575e75,#3d528f);
   }
-  .tabContent{
+  .tabContent,.testimonials__slide,.bottom-navigation{
     background-color: #2a2a2e;
     color: #bbb;
-    width: 100%;
   }
+}
+/* Surrounding light dark mode */
+.darkheader{
+  background-image: linear-gradient(to bottom right,#3d528f,#575e75,#3d528f);
 }
 /* Responsive logo */
 @media screen and (max-width: 600px){
@@ -85,7 +91,7 @@ font-family: Arial,sans-serif;
     background-color: #444;
     color: #fff;
 }
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links side b side accordingly */
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links side by side accordingly */
 @media screen and (max-width: 400px) {
     .tab .tablink {
       float: left;
@@ -185,7 +191,7 @@ font-family: Arial,sans-serif;
   cursor: pointer;
   height: 15px;
   width: 15px;
-  margin: 0 2px;
+  margin: 0 5px;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
@@ -201,6 +207,13 @@ font-family: Arial,sans-serif;
 @media (max-width: 500px) {
     .testimonials__slider,.testimonials__slide,.testimonials__author {
       text-align: center;
+    }
+    .dot{
+      margin: 10px;
+      background-color: #bbb;
+    }
+    .dot:hover{
+      background-color: #fff;
     }
     .testimonials__avatar{
       margin: auto;

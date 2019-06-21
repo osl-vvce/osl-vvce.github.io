@@ -202,8 +202,9 @@
                     </div>
             </div>
     </body>
-    <!-- js for changing tab -->
-    <script> 
+    
+    <script type="text/javascript">   
+    // function to open the content of the tabs 
             function page(pageName,event){
                 var i,tabContent,tablink;
                 tabContent=document.getElementsByClassName("tabContent");
@@ -220,8 +221,8 @@
                 document.getElementById("defaultOpen").click();
     </script>
 
-    <!-- js for changing slide of testimonial -->
-    <script>
+    <script type="text/javascript">
+    // Function to navigate to top of webpage  
     var slideIndex = 1;
     showSlides(slideIndex);
 
@@ -252,11 +253,31 @@
   
   <!-- script for back to top -->
 
-  <script>
+  <script type="text/javascript">
     // When the user clicks on the button, scroll to the top of the document
     function topFunction() {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     } 
+    </script>
+
+    <script type="text/javascript">
+        //Enables Dark mode based on surrounding light
+        if ( 'AmbientLightSensor' in window ) {
+        const sensor = new AmbientLightSensor();
+        sensor.onreading = () => {
+            console.log('illuminance level :', sensor.illuminance);
+            if(sensor.illuminance < 15) {
+                    document.querySelector('header').classList.add('darkheader');
+            }
+            else {
+                    document.querySelector('header').classList.remove('darkheader');
+            }
+        };
+        sensor.onerror = (event) => {
+            console.log(event.error);
+        };
+        sensor.start();
+        }
     </script>
 </html>
