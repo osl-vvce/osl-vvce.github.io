@@ -1,6 +1,25 @@
 body,html{
 font-family: Arial,sans-serif;
 }
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
 .header{
     background-image: linear-gradient(to bottom right,#df3b31,#ffa22a,#df3b31) ;
     width: 100%;
@@ -327,10 +346,47 @@ font-family: Arial,sans-serif;
   } 
  }
  
-.middle{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+ /* styling for gallery tab */
+ .image-row{
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+ }
+ .image-column{
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 10px ;
+ }
+ .image-column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 60%;
 }
+/* Responsive layout make two column layout nstead of four column */
+@media screen and (max-width: 600px){
+  .image-column{
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+/* Responsive layout make stack of column */
+@media screen and (max-width: 600px){
+  .image-column{
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+/* style events tab */
+.middle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+

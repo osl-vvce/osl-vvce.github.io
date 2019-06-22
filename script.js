@@ -1,4 +1,3 @@
-  
 // function to open the content of the tabs 
 function page(pageName,event){
     var i,tabContent,tablink;
@@ -15,7 +14,7 @@ function page(pageName,event){
         }
         document.getElementById("defaultOpen").click();
 
-    // Function to navigate to top of webpage  
+    // Function to navigate testimonials  
     var slideIndex = 1;
     showSlides(slideIndex);
 
@@ -49,11 +48,11 @@ function page(pageName,event){
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     } 
     
-        //Enables Dark mode
-        var time = new Date().getHours();
-        if(time >= 18 && time <= 24 || time >= 0 && time <= 7){
-            document.write("<link rel='stylesheet' href='night.css' type='text/css'>");
-        }
-        else{
-            document.write(" <link rel='stylesheet' href='style.css' type='text/css'>");
+     //Enables Dark mode
+    var time = new Date().getHours();
+    if(time >= 18 && time <= 24 || time >= 0 && time <= 6){
+         document.write("<link rel='stylesheet' href='night.css' type='text/css'>");
+    }
+    else{
+        document.write(" <link rel='stylesheet' href='style.css' type='text/css'>");
     }
