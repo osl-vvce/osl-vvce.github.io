@@ -325,7 +325,7 @@ body,html{
     z-index: 99;
     background-color: #000;
     color: white;
-    padding: 18px;/*Some padding */
+    padding: 18px;
     border-radius: 50%; /* Rounded corners */
     font-size: 18px; /* Increase font size */    
 }
@@ -349,35 +349,26 @@ body,html{
   -ms-flex: 25%; /* IE10 */
   flex: 25%;
   max-width: 25%;
-  padding: 0 4px;
+  padding: 0 5px ;
+  margin-left: 10px;
  }
  .image-column img {
   margin-top: 8px;
   vertical-align: middle;
-  width: 100%;
+  width: 90%;
+  background-color: #bbb;
 }
-/* Responsive layout make two column layout nstead of four column */
+/* Responsive layout of four column */
 @media screen and (max-width: 600px){
   .image-column{
-    -ms-flex: 50%;
-    flex: 50%;
+    -ms-flex: 25%;
+    flex: 25%;
     max-width: 50%;
   }
 }
-/* Responsive layout make stack of column */
-@media screen and (max-width: 600px){
-  .image-column{
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-  }
-}
+
 /* style events tab */
 .middle{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+  text-align: center;
 }
     
