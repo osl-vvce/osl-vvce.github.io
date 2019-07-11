@@ -1,18 +1,27 @@
+// function for typing effect
+var i = 0;
+var txt = 'Hello';
+var speed = 70;
+let delay = 15;
+var backspace = false;
+var mytext = setInterval(typeWriter , 100);
+function typeWriter() {
+  document.getElementById("demo").innerHTML = txt.substr(0, i);
+
+  if (i > txt.length + delay) backspace = true;
+  if (i == -1) backspace = false;
+  backspace ? i-- : i++;
+}
 // function to open the content of the tabs 
-function page(pageName,event){
-    var i,tabContent,tablink;
+function page(pageName){
+    var i,tabContent;
         tabContent=document.getElementsByClassName("tabContent");
         for(i=0; i<tabContent.length ; i++){
             tabContent[i].style.display="none";
         }
-        tablink=document.getElementsByClassName("tablink");
-        for(i=0;i<tablink.length;i++){
-           tablink[i].className=tablink[i].className.replace("active"," ");
-        }
         document.getElementById(pageName).style.display="block";
-        event.currentTarget.className+="active";
-        }
-        document.getElementById("defaultOpen").click();
+    }   
+    document.getElementById("defaultOpen").click();
 
     // Function to navigate testimonials  
     var slideIndex = 1;
@@ -30,11 +39,12 @@ function page(pageName,event){
     var i;
     var slides = document.getElementsByClassName("testimonials__slide");
     var dots = document.getElementsByClassName("dot");
-    if (n > slides.length) {slideIndex = 1}    
-    if (n < 1) {slideIndex = slides.length}
+    
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";  
     }
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
     for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
     }
@@ -54,5 +64,5 @@ function page(pageName,event){
          document.write("<link rel='stylesheet' href='night.css' type='text/css'>");
     }
     else{
-        document.write(" <link rel='stylesheet' href='style.css' type='text/css'>");
+        document.write(" <link rel='stylesheet' href='night.css' type='text/css'>");
     }
