@@ -1890,26 +1890,6 @@ input::-moz-focus-inner {
   position: relative;
   display: table;
 }
-.s-home .shadow-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0.4;
-  background: linear-gradient(to right, black 0%, black 20%, transparent 100%);
-}
-.s-home::before {
-  display: block;
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0.65;
-  background-color: #000000;
-}
 
 .no-js .s-home {
   background: #000000;
