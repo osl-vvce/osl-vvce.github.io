@@ -26,93 +26,95 @@ const useStyles = makeStyles(styles)
 
 export default function HeaderLinks(props) {
   const classes = useStyles()
-  if (window !== undefined)
-    return (
-      <List className={classes.list}>
-        <ListItem className={classes.listItem}>
-          <CustomDropdown
-            noLiPadding
-            buttonText="Components"
-            buttonProps={{
-              className: classes.navLink,
-              color: "transparent",
-            }}
-            buttonIcon={Apps}
-            dropdownList={[
-              <Link to="/" className={classes.dropdownLink}>
-                All components
-              </Link>,
-              <a
-                href="https://osl.vvce.ac.in"
-                target="_blank"
-                className={classes.dropdownLink}
-              >
-                Documentation
-              </a>,
-            ]}
-          />
-        </ListItem>
-        <ListItem className={classes.listItem}>
+  if (!process.env.BROWSER) {
+    global.window = {} // Temporarily define window for server-side
+  }
+  return (
+    <List className={classes.list}>
+      <ListItem className={classes.listItem}>
+        <CustomDropdown
+          noLiPadding
+          buttonText="Components"
+          buttonProps={{
+            className: classes.navLink,
+            color: "transparent",
+          }}
+          buttonIcon={Apps}
+          dropdownList={[
+            <Link to="/" className={classes.dropdownLink}>
+              All components
+            </Link>,
+            <a
+              href="https://osl.vvce.ac.in"
+              target="_blank"
+              className={classes.dropdownLink}
+            >
+              Documentation
+            </a>,
+          ]}
+        />
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Button
+          href="https://osl.vvce.ac.in"
+          color="transparent"
+          target="_blank"
+          className={classes.navLink}
+        >
+          <CloudDownload className={classes.icons} /> Download
+        </Button>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Tooltip
+          id="instagram-twitter"
+          title="Follow us on twitter"
+          placement={window.innerWidth > 959 ? "top" : "left"}
+          classes={{ tooltip: classes.tooltip }}
+        >
           <Button
-            href="https://osl.vvce.ac.in"
+            href="https://twitter.com"
+            target="_blank"
             color="transparent"
+            className={classes.navLink}
+          >
+            <TwitterIcon />
+          </Button>
+        </Tooltip>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Tooltip
+          id="instagram-facebook"
+          title="Follow us on facebook"
+          placement={window.innerWidth > 959 ? "top" : "left"}
+          classes={{ tooltip: classes.tooltip }}
+        >
+          <Button
+            color="transparent"
+            href="https://www.facebook.com"
             target="_blank"
             className={classes.navLink}
           >
-            <CloudDownload className={classes.icons} /> Download
+            <FacebookIcon />
           </Button>
-        </ListItem>
-        <ListItem className={classes.listItem}>
-          <Tooltip
-            id="instagram-twitter"
-            title="Follow us on twitter"
-            placement={window.innerWidth > 959 ? "top" : "left"}
-            classes={{ tooltip: classes.tooltip }}
+        </Tooltip>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Tooltip
+          id="instagram-tooltip"
+          title="Follow us on instagram"
+          placement={window.innerWidth > 959 ? "top" : "left"}
+          classes={{ tooltip: classes.tooltip }}
+        >
+          <Button
+            color="transparent"
+            href="https://www.instagram.com"
+            target="_blank"
+            className={classes.navLink}
           >
-            <Button
-              href="https://twitter.com"
-              target="_blank"
-              color="transparent"
-              className={classes.navLink}
-            >
-              <TwitterIcon />
-            </Button>
-          </Tooltip>
-        </ListItem>
-        <ListItem className={classes.listItem}>
-          <Tooltip
-            id="instagram-facebook"
-            title="Follow us on facebook"
-            placement={window.innerWidth > 959 ? "top" : "left"}
-            classes={{ tooltip: classes.tooltip }}
-          >
-            <Button
-              color="transparent"
-              href="https://www.facebook.com"
-              target="_blank"
-              className={classes.navLink}
-            >
-              <FacebookIcon />
-            </Button>
-          </Tooltip>
-        </ListItem>
-        <ListItem className={classes.listItem}>
-          <Tooltip
-            id="instagram-tooltip"
-            title="Follow us on instagram"
-            placement={window.innerWidth > 959 ? "top" : "left"}
-            classes={{ tooltip: classes.tooltip }}
-          >
-            <Button
-              color="transparent"
-              href="https://www.instagram.com"
-              target="_blank"
-              className={classes.navLink}
-            >
-              <InstagramIcon />
-            </Button>
-          </Tooltip>
-        </ListItem>
-      </List>
-    )
+            <InstagramIcon />
+          </Button>
+        </Tooltip>
+      </ListItem>
+    </List>
+  )
 }
