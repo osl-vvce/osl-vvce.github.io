@@ -8,6 +8,7 @@
     "@material-ui/core": "^4.8.3",
     "@material-ui/icons": "^4.5.1",
     "@material-ui/styles": "^4.8.2",
+    "classnames": "^2.2.6",
     "gatsby": "^2.18.12",
     "gatsby-image": "^2.2.34",
     "gatsby-plugin-dark-mode": "^1.1.0",
