@@ -11,15 +11,18 @@ import ListItem from "@material-ui/core/ListItem"
 import Tooltip from "@material-ui/core/Tooltip"
 
 // @material-ui/icons
-import { Apps, CloudDownload } from "@material-ui/icons"
-
-// core components
-import CustomDropdown from "../customDropdown/customDropdown"
-import Button from "../customButton/button"
+import HomeIcon from "@material-ui/icons/Home"
+import EmojiObjectsIcon from "@material-ui/icons/EmojiObjects"
+import SubjectIcon from "@material-ui/icons/Subject"
+import PeopleIcon from "@material-ui/icons/People"
+import AccountTreeIcon from "@material-ui/icons/AccountTree"
 
 import FacebookIcon from "@material-ui/icons/Facebook"
 import InstagramIcon from "@material-ui/icons/Instagram"
 import TwitterIcon from "@material-ui/icons/Twitter"
+
+// core components
+import Button from "../customButton/button"
 
 import styles from "./headerLink.styles"
 
@@ -30,36 +33,36 @@ export default function HeaderLinks(props) {
   return (
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
-        <CustomDropdown
-          noLiPadding
-          buttonText="Components"
-          buttonProps={{
-            className: classes.navLink,
-            color: "transparent",
-          }}
-          buttonIcon={Apps}
-          dropdownList={[
-            <Link to="/" className={classes.dropdownLink}>
-              All components
-            </Link>,
-            <a
-              href="https://osl.vvce.ac.in"
-              target="_blank"
-              className={classes.dropdownLink}
-            >
-              Documentation
-            </a>,
-          ]}
-        />
+        <Button href="/" color="transparent" className={classes.navLink}>
+          <HomeIcon className={classes.icons} /> Home
+        </Button>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Button href="/about" color="transparent" className={classes.navLink}>
+          <EmojiObjectsIcon className={classes.icons} /> About
+        </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="https://osl.vvce.ac.in"
+          href="/achievements"
           color="transparent"
-          target="_blank"
           className={classes.navLink}
         >
-          <CloudDownload className={classes.icons} /> Download
+          <SubjectIcon className={classes.icons} /> Achievements
+        </Button>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Button href="/members" color="transparent" className={classes.navLink}>
+          <PeopleIcon className={classes.icons} /> Members
+        </Button>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Button
+          href="/projects"
+          color="transparent"
+          className={classes.navLink}
+        >
+          <AccountTreeIcon className={classes.icons} /> Projects
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>

@@ -1,7 +1,11 @@
-/**
- * Implement Gatsby's Node APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/node-apis/
- */
+const { graphqlForProfiles } = require("./src/scripts/create-profiles")
 
-// You can delete this file if you're not using it
+function createIndividualPages(actions, graphql) {
+  const { createPage } = actions
+
+  return Promise.all([graphqlForProfiles(graphql, createPage)])
+}
+
+exports.createPages = ({ graphql, actions }) => {
+  return createIndividualPages(actions, graphql)
+}

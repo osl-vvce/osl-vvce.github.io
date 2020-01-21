@@ -6,7 +6,7 @@ import HomeLanding from "../components/home/homeLanding"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home Page" />
+    <SEO title="Open Source Lab" />
     <HomeLanding />
   </Layout>
 )
