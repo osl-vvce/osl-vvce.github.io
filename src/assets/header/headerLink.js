@@ -1,6 +1,7 @@
 /*eslint-disable*/
 // react components for routing our app without refresh
 import React from "react"
+import window from "global"
 import { Link } from "gatsby"
 
 // @material-ui/core components
@@ -26,9 +27,6 @@ const useStyles = makeStyles(styles)
 
 export default function HeaderLinks(props) {
   const classes = useStyles()
-  if (!process.env.BROWSER) {
-    global.window = {} // Temporarily define window for server-side
-  }
   return (
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
