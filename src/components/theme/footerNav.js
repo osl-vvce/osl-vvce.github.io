@@ -30,15 +30,15 @@ const FooterNav = () => (
           <h4>For Students</h4>
           <ul>
             <li>
-              <a href="https://join.amfoss.in/">How to Join?</a>
+              <a href="https://joinosl.vvce.ac.in/">How to Join?</a>
             </li>
             <li>
-              <a href="https://github.com/amfoss/vidyaratna">
+              <a href="https://github.com/osl-vvce/learncode">
                 Learning Resources
               </a>
             </li>
             <li>
-              <a href="https://github.com/amfoss/workshops">
+              <a href="https://github.com/osl-vvce/Workshops">
                 Workshops & Event Resources
               </a>
             </li>
@@ -66,13 +66,15 @@ const FooterNav = () => (
           <h4>The Club</h4>
           <ul>
             <li>
-              <a href="http://blog.amfoss.in">amFOSS Blog</a>
+              <a href="#blog">OSL Blog</a>
             </li>
             <li>
               <a href="/about#social-initiatives">Social Initiatives</a>
             </li>
             <li>
-              <a href="https://github.com/amfoss/workshops">Events & Workshops</a>
+              <a href="https://github.com/osl-vvce/Workshops">
+                Events & Workshops
+              </a>
             </li>
             <li>
               <a href="/news">Press & Media</a>
@@ -84,18 +86,24 @@ const FooterNav = () => (
         <div id="contact">
           <h4>Contact Us</h4>
           <div className="footer-contact">
-            <h6><i className="fa fa-comments" />  IRC Chat</h6>
-            <p>#amfoss on Freenode.</p>
-            <h6><i className="fa fa-envelope" />  Email</h6>
+            <h6>
+              <i className="fa fa-comments" /> IRC Chat
+            </h6>
+            <p>#oslvvce on Freenode.</p>
+            <h6>
+              <i className="fa fa-envelope" /> Email
+            </h6>
             <p>
-              <a href="mailto:amritapurifoss@gmail.com"> amritapurifoss@gmail.com</a>
+              <a href="mailto:osl@vvce.ac.in"> osl@vvce.ac.in</a>
             </p>
-            <h6><i className="fa fa-location-arrow" /> Address</h6>
+            <h6>
+              <i className="fa fa-location-arrow" /> Address
+            </h6>
             <p>
-              FOSS@Amrita, <br /> Amrita Vishwa Vidyapeetham, <br />
-              Amritapuri, Clappana P.O.,
+              OSL@VVCE, <br /> Vidyavardhaka College of Engineering, <br />
+              III Stage, Gokulam,
               <br />
-              Kollam, Kerala - 690525
+              Mysuru, Karnataka - 570017
             </p>
           </div>
         </div>
