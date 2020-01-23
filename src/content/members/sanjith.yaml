@@ -1,0 +1,15 @@
+firstName: Sanjith
+lastName: PK
+username: sanjithpk
+avatar: ./avatars/sanjith.png
+batch: 2017
+branch: CSE
+tagline: Eat Workout Code Sleep Repeat
+about: !markdown |
+  Exploring gatsby, the most efficient way to building static PWA's
+links:
+  github: https://github.com/sanjithpk
+  twitter: https://twitter.com/sanjithpk
+  codechef: https://www.codechef.com/users/sanjithpk
+  facebook: https://www.facebook.com/sanjithpk
+role: Mentor
