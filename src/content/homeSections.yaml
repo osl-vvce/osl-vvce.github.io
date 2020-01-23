@@ -1,7 +1,7 @@
 - Title: Who are we?
   Image: !file ../images/illus/who_are_we.jpg
   Content: !markdown |
-    FOSS@Amrita (also known as amFOSS ) is a community of passionate college students,
+    Open Source Lab (also known as OSL ) is a community of passionate college students,
     who have come together for the cause of promoting and contributing to Free and Open
     Source Software, whilst achieving excellence in the field of technology in their pursuit of knowledge.
 
@@ -10,9 +10,8 @@
     by simulating a workspace like atmosphere inside the lab, and making them go through all challenges,
     and setbacks they may face in the real world.
 
-    Founded in 2008, the club over the years has been renowned as one of the leading student clubs in India,
-    with about 500 active members. It has so far produced 30+ GSoCers, and established Amrita Vishwa Vidyapeetham,
-    Amritapuri Campus as globally 8th ranked in GSoC ranking. The club is run by the students themselves, with the
+    Founded in 2017, the club over the years has been renowned as one of the leading student clubs in India,
+    with about 500 active members. It has so far produced 1 GSoCer, and every year more than 3 teams make it to the Grand Finale of SIH. The club is run by the students themselves, with the
     help of research scholars, alumni, and faculties.
 
 - Title: What we do?
@@ -45,20 +44,19 @@
     source in the country, introducing over a hundred enthusiasts every year to the world
     of Open source through the various activities it conducts.
 
-    The club has produced 50+ GSoCers over the last 10 years, with about 15 developers getting selected every year.
+    The club has produced 12 teams who have made it through SIH Grand Finale over the last 3 years, with about 3 teams getting selected every year.
     The members have been actively taking part in international conferences, meetups, hackathons, as well as delivering
     talks and presenting projects at various events.
 
-    Majority of the club alumni have been placed in core computer science companies such as Google, Microsoft, Intel,
-    IBM and VMWare. The active members also get selected for summer schools at global universities, and paid
+    Majority of the club alumni have been placed in core computer science companies. The active members also get selected for summer schools at global universities, and paid
     internships at top companies. Some of our alumni are currently Phd. research scholars at various foreign
     universities.
   Stats:
-    - Num: "500+"
-      Text: Students Trained
-    - Num: "50+"
-      Text: GSoC Students
     - Num: "100+"
+      Text: Students Trained
+    - Num: "1+"
+      Text: GSoC Students
+    - Num: "10+"
       Text: Alumni in Core CS Jobs
-    - Num: "50+"
+    - Num: "5+"
       Text: Working in Startups

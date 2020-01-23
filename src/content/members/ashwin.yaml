@@ -1,11 +1,7 @@
 firstName: Ashwin
-lastName: Shenoy
+lastName: K
 username: ashwin
-avatar: ./avatars/ashwin.png
-batch: 2022
+avatar: ./avatars/ashwin.jpg
+batch: 2016
 branch: CSE
-tagline: Innovator | Technologist | Problem Solver.
-links:
-  github: https://github.com/aswinshenoy
-  facebook: https://facebook.com/aswinshenoy
 role: Member

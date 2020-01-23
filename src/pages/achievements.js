@@ -13,7 +13,7 @@ const Achievements = () => (
   <Layout>
     <SEO title="Achievements" />
     <TitleBar title="Achievements" />
-    <div className="row m-0 px-2 py-4">
+    {/* <div className="row m-0 px-2 py-4">
       <div className="col-md-6 col-lg-4 px-2 py-0">
         <GSoC />
       </div>
@@ -24,7 +24,8 @@ const Achievements = () => (
         <SummerSchool />
         <Talks />
       </div>
-    </div>
+    </div> */}
+    <h2 className="mt-4 ml-4">Coming Soon</h2>
   </Layout>
 )
 

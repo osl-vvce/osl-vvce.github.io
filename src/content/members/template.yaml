@@ -1,0 +1,16 @@
+firstName: name
+lastName: name
+username: username
+batch: 2021
+branch: CSE
+tagline: tagline
+about: !markdown |
+  about
+links:
+  github: https://github.com
+  twitter: https://twitter.com
+  codeforces: https://codeforces.com/profile/
+  codechef: https://www.codechef.com/users/
+  facebook: https://www.facebook.com/
+role: Member
+hide: 1

@@ -9,7 +9,8 @@ const Life = () => (
   <Layout>
     <SEO title="Life in the Club" />
     <TitleBar title="Life in the Club" />
-    <ClubLife />
+    {/* <ClubLife /> */}
+    <h2 className="mt-4 ml-4">Coming Soon</h2>
   </Layout>
 )
 

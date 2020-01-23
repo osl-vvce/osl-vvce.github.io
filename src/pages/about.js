@@ -10,7 +10,8 @@ const About = () => (
     <SEO title="About the Club" />
     <TitleBar title="About the Club" />
     <h2 className="mt-4 ml-4">Our Story</h2>
-    <StorySections />
+    {/* <StorySections /> */}
+    <h2 className="ml-4">Coming Soon</h2>
   </Layout>
 )
 

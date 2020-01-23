@@ -13,10 +13,9 @@ const Project = ({
     allProjectsYaml: { edges },
   },
 }) => {
-  const [query, setQuery]  = useState('');
+  const [query, setQuery] = useState("")
   const filter = edges.filter(edge => {
-    if (edge.node.title.toLowerCase().startsWith(query.toLowerCase()))
-      return 1
+    if (edge.node.title.toLowerCase().startsWith(query.toLowerCase())) return 1
   })
   const Projects = filter.map(edge => (
     <div key={edge.node.id} className="col-xl-5 col-md-10 col-sm-6 pb-4">
@@ -28,7 +27,7 @@ const Project = ({
     <Layout>
       <SEO title="Projects" />
       <TitleBar title="Projects" />
-      <div className="row m-0 p-1">
+      {/* <div className="row m-0 p-1">
         <div className="col-md-8 col-lg-9 p-2 order-2 order-md-1">
           <div className="row mx-2 my-4">{Projects}</div>
         </div>
@@ -48,7 +47,8 @@ const Project = ({
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+      <h2 className="mt-4 ml-4">Coming Soon</h2>
     </Layout>
   )
 }
@@ -61,12 +61,12 @@ export const pageQuery = graphql`
         node {
           id
           title
-          members{
+          members {
             user
             role
           }
           gallery {
-            childImageSharp{
+            childImageSharp {
               resize(width: 500) {
                 src
               }
