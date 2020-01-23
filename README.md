@@ -1,49 +1,42 @@
-# OSL Beta Website ![Update](https://img.shields.io/badge/June-2019-blue.svg?longCache=true&style=for-the-badge)
+# amFOSS Website
+[![Watchers][watchers-badge]][watchers]
+[![Star Gazers][stars-badge]][stargazers]
+[![Forks][forks-badge]][forks]
 
-## What's this?
+[![Travis CI][build-badge]][build]
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b71a9e17-c299-4dbb-956a-f61572e46c0d/deploy-status)](https://app.netlify.com/sites/amfoss/deploys)
+[![MIT][license-badge]][license]
+[![Open Issues][issues-badge]][issues]
+[![PRs][pr-badge]][prs]
+[![Contributors][contributors-badge]][contributors]
 
-This website was created by the community of OSL VVCE and is run 100% by the community.We want to turn this project into a resource for the community and a place to gather all of our open source initiatives (see below).
+Website for FOSS@Amrita powered by JAM Stack (Gatsby). 
 
-## Who can contribute?
+## :minidisc: [Installation Instructions](https://github.com/amfoss/website/wiki/Installation)
+Make sure that you have `Node JS` and `NPM ` installed. Else you can refer to [installation page on our wiki](https://github.com/amfoss/website/wiki/Installation)
 
-Anybody! Think of this as a playground where no matter what your skill level, you can contribute.If this is your first time contributing to open source to this project and nobody is going to yell at you if you make a mistake :)
+Navigate into site's directory and start it up.
+```
+cd website/
+npm install
+npm start
+```
 
-## What is this project?
+Your site is now running at `https://localhost:8000` 
 
-Re-developing https://osl-vvce.github.io/
-
-## Features
-
-#### About Section
-
-Describing in detail what OSL is all about, nothing special just some static information.
-
----
-
-#### Facillities Section
-
-List all the facillities provided by OSL, the hardwware we have, the softares we use.
-
----
-
-#### Galary Section
-
-All the photos related to OSL and the events we conduct is shown here.
-
-## Useful Information
-
-Repo: https://osl-vvce.github.io/
-Tech: HTML initially, but up to the community  
-Theme: Light and Elegant
-
-## How to get started?
-
-- Start making small Pull Requests wherever you think you can help. The Management team will be handling the project and adding the features that you create as they come.
-- You can use the **OSL Website** card on Trello to discuss anything related to this project.
-
-## Technology Stack
-
-[Gatsby.js](https://www.gatsbyjs.org/)
-Try to contribute to Gatsby.js this [Hacktoberfest](https://www.gatsbyjs.org/)!
-
-Happy coding!
+[build-badge]:https://api.travis-ci.com/amfoss/website.svg?branch=master
+[build]:https://travis-ci.com/amfoss/website
+[contributors-badge]:https://img.shields.io/github/contributors/amfoss/website.svg
+[contributors]: https://github.com/amfoss/website/graphs/contributors
+[watchers-badge]:https://img.shields.io/github/watchers/amfoss/website.svg?style=social
+[watchers]: https://github.com/amfoss/website/watchers
+[stars-badge]:https://img.shields.io/github/stars/amfoss/website.svg?style=social
+[stargazers]:https://github.com/amfoss/website/stargazers
+[forks-badge]: https://img.shields.io/github/forks/amfoss/website.svg?style=social
+[forks]: https://github.com/amfoss/website/network/members
+[license-badge]: https://img.shields.io/github/license/amfoss/website.svg
+[license]: https://github.com/amfoss/website/blob/master/LICENSE
+[issues-badge]: https://img.shields.io/github/issues/amfoss/website.svg
+[issues]: https://github.com/amfoss/website/issues
+[pr-badge]:https://img.shields.io/github/issues-pr/amfoss/website.svg
+[prs]: https://github.com/amfoss/website/pulls
