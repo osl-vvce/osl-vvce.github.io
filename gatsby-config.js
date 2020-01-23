@@ -1,16 +1,38 @@
 module.exports = {
   siteMetadata: {
-    title: `OSL VVCE`,
-    description: `A landing page for OSL VVCE.`,
-    author: `@osl_vvce`,
+    title: `FOSS@Amrita (amFOSS) - Code | Share | Grow`,
+    description: `A Student Community of Open Source Enthusiasts based in Amrita Vishwa Vidyapeetham, Amritapuri. We promote and contribute to FOSS, and mentor students for achieving excellence.`,
+    author: 'amfoss'
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
+        name: `amFOSS Website`,
+        short_name: `amfoss`,
+        start_url: `/`,
+        background_color: `#ffc107`,
+        theme_color: `#ffc107`,
+        display: `minimal-ui`,
+        icon: `src/images/favicon.png`,
+      },
+    },
+    `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-transformer-yaml-full`,
+      options: {
+        createChildNodes: true,
+        plugins: [
+          `gatsby-yaml-full-markdown`, // Enable !markdown tags
+          `gatsby-yaml-full-file`,
+        ],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-151582360-1",
+        head: true,
       },
     },
     `gatsby-transformer-sharp`,
@@ -29,30 +51,21 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    `gatsby-plugin-material-ui`,
+    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-sass`,
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: `gatsby-plugin-nprogress`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
-        start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        color: `tomato`,
+        showSpinner: true,
       },
     },
-    `gatsby-plugin-offline`,
     {
-      resolve: `gatsby-transformer-yaml-full`,
+      resolve: `gatsby-plugin-disqus`,
       options: {
-        createChildNodes: true,
-        plugins: [
-          `gatsby-yaml-full-markdown`, // Enable !markdown tags
-          `gatsby-yaml-full-file`,
-        ],
-      },
+        shortname: `amfoss`
+      }
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline

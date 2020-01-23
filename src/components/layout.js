@@ -1,20 +1,22 @@
 import React from "react"
-import Darkmode from "darkmode-js"
-import Header from "./header"
-import Footer from "../assets/footer/footer"
-import ".././assets/layout/layout.styles.css"
+import PropTypes from "prop-types"
 
-const Layout = ({ children }) => {
-  new Darkmode().showWidget()
-  return (
-    <>
-      <Header />
-      <div id="page-container">
-        <main>{children}</main>
-      </div>
+import Header from "./header"
+import Footer from "./footer"
+import "../styles/style.sass"
+
+const Layout = ({ children }) => (
+  <div>
+    <Header />
+    <div id="page-container">
+      <main>{children}</main>
       <Footer />
-    </>
-  )
+    </div>
+  </div>
+)
+
+Layout.propTypes = {
+  children: PropTypes.node.isRequired,
 }
 
 export default Layout

@@ -1,3 +1,6 @@
+package-lock.json
+/.idea
+
 # Logs
 logs
 *.log
@@ -51,12 +54,15 @@ typings/
 # Output of 'npm pack'
 *.tgz
 
-# dotenv environment variable files
-.env*
+# dotenv environment variables file
+.env
 
 # gatsby files
 .cache/
 public
+
+#intelliJ files
+.idea/
 
 # Mac files
 .DS_Store
@@ -67,3 +73,4 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
+
