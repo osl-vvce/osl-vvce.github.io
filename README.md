@@ -1,4 +1,4 @@
-# OSL Beta Website ![Update](https://img.shields.io/badge/June-2019-blue.svg?longCache=true&style=for-the-badge)
+# OSL Beta Website ![Update](https://img.shields.io/badge/Jan-2020-blue.svg?longCache=true&style=for-the-badge)
 
 ## What's this?
 
@@ -14,21 +14,33 @@ Re-developing https://osl-vvce.github.io/
 
 ## Features
 
-#### About Section
+#### Home Section
 
-Describing in detail what OSL is all about, nothing special just some static information.
-
----
-
-#### Facillities Section
-
-List all the facillities provided by OSL, the hardwware we have, the softares we use.
+General introduction to OSL, nothing special just some static information.
 
 ---
 
-#### Galary Section
+#### Members Section
+
+Lists down all the members dynamically based on a yaml file.
+
+---
+
+#### Blogs Section
+
+All the blogs written by OSL members using markdown are generated using slugs.
+
+---
+
+#### Blogs Section
 
 All the photos related to OSL and the events we conduct is shown here.
+
+---
+
+#### Contact Section
+
+Contact information such as email, telegram, irc, whatsapp etc.
 
 ## Useful Information
 
