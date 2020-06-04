@@ -1,22 +1,19 @@
-import React from "react"
-import PropTypes from "prop-types"
+import React from "react";
+import Head from "./head";
+import Navbar from "./navbar";
+import Footer from "./footer";
 
-import Header from "./header"
-import Footer from "./footer"
-import "../styles/style.sass"
+const Layout = ({ placeholder, children }) => {
+    return (
+        <React.Fragment>
+            <Head />
+            <Navbar
+                placeholder={placeholder === undefined ? true : placeholder}
+            />
+            <div className="wrapper">{children}</div>
+            <Footer />
+        </React.Fragment>
+    );
+};
 
-const Layout = ({ children }) => (
-  <div>
-    <Header />
-    <div id="page-container">
-      <main>{children}</main>
-      <Footer />
-    </div>
-  </div>
-)
-
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
-}
-
-export default Layout
+export default Layout;

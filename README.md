@@ -1,4 +1,4 @@
-# OSL Beta Website ![Update](https://img.shields.io/badge/Jan-2020-blue.svg?longCache=true&style=for-the-badge)
+# OSL Beta Website ![Update](https://img.shields.io/badge/June-2020-blue.svg?longCache=true&style=for-the-badge)
 
 ## What's this?
 
@@ -20,6 +20,12 @@ General introduction to OSL, nothing special just some static information.
 
 ---
 
+#### About Section
+
+Tells about OSL, Who we are, What we do etc, What we have achieved etc.
+
+---
+
 #### Members Section
 
 Lists down all the members dynamically based on a yaml file.
@@ -29,12 +35,6 @@ Lists down all the members dynamically based on a yaml file.
 #### Blogs Section
 
 All the blogs written by OSL members using markdown are generated using slugs.
-
----
-
-#### Blogs Section
-
-All the photos related to OSL and the events we conduct is shown here.
 
 ---
 
@@ -50,12 +50,12 @@ Theme: Light and Elegant
 
 ## How to get started?
 
-- Start making small Pull Requests wherever you think you can help. The Management team will be handling the project and adding the features that you create as they come.
-- You can use the **OSL Website** card on Trello to discuss anything related to this project.
+-   Start making small Pull Requests wherever you think you can help. The Management team will be handling the project and adding the features that you create as they come.
+-   You can use the **OSL Website** card on Trello to discuss anything related to this project.
 
 ## Technology Stack
 
-[Gatsby.js](https://www.gatsbyjs.org/)
+[Gatsby.js](https://www.gatsbyjs.org/) <br/>
 Try to contribute to Gatsby.js this [Hacktoberfest](https://www.gatsbyjs.org/)!
 
 Happy coding!
