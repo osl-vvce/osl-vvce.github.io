@@ -1,4 +1,10 @@
-# OSL Beta Website ![Update](https://img.shields.io/badge/June-2020-blue.svg?longCache=true&style=for-the-badge)
+# OSL Beta Website
+
+![GitHub package.json version](https://img.shields.io/github/package-json/v/osl-vvce/osl-vvce.github.io?style=for-the-badge)
+![GitHub Workflow Status](https://img.shields.io/badge/build-passing-blue?style=for-the-badge)
+![GitHub](https://img.shields.io/github/license/osl-vvce/osl-vvce.github.io?style=for-the-badge)
+![GitHub contributors](https://img.shields.io/github/contributors/osl-vvce/osl-vvce.github.io?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/osl-vvce/osl-vvce.github.io?style=for-the-badge)
 
 ## What's this?
 
