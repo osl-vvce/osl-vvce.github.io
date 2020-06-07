@@ -12,12 +12,12 @@
     Open Source Lab (also known as OSL ) is a community of passionate college students, who have come together for the cause of promoting and contributing to Free and Open Source.
 </p>
 <p align="center">
-![GitHub package.json version](https://img.shields.io/github/package-json/v/osl-vvce/osl-vvce.github.io)
-![GitHub Workflow Status](https://img.shields.io/badge/build-passing-blue)
-![GitHub](https://img.shields.io/github/license/osl-vvce/osl-vvce.github.io)
-![GitHub contributors](https://img.shields.io/github/contributors/osl-vvce/osl-vvce.github.io)
-![GitHub last commit](https://img.shields.io/github/last-commit/osl-vvce/osl-vvce.github.io)
-![Twitter Follow](https://img.shields.io/twitter/follow/osl_vvce?label=Follow%20OSL%20VVCE&style=social)
+  <img src="https://img.shields.io/github/package-json/v/osl-vvce/osl-vvce.github.io" alt="version" />
+  <img src="https://img.shields.io/github/license/osl-vvce/osl-vvce.github.io" alt="license" />
+  <img src="https://img.shields.io/badge/build-passing-blue" alt="build" />
+  <img src="https://img.shields.io/github/contributors/osl-vvce/osl-vvce.github.io" alt="contributors" />
+  <img src="https://img.shields.io/github/last-commit/osl-vvce/osl-vvce.github.io" alt="last-commit" />
+  <img src="https://img.shields.io/twitter/follow/osl_vvce?label=Follow%20OSL%20VVCE&style=social" alt="twitter" />
 </p>
 
 ## What's this?
