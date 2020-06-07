@@ -17,7 +17,9 @@
   <img src="https://img.shields.io/badge/build-passing-blue" alt="build" />
   <img src="https://img.shields.io/github/contributors/osl-vvce/osl-vvce.github.io" alt="contributors" />
   <img src="https://img.shields.io/github/last-commit/osl-vvce/osl-vvce.github.io" alt="last-commit" />
-  <img src="https://img.shields.io/twitter/follow/osl_vvce?label=Follow%20OSL%20VVCE&style=social" alt="twitter" />
+  <a href="https://twitter.com/osl_vvce">
+    <img src="https://img.shields.io/twitter/follow/osl_vvce?label=Follow%20OSL%20VVCE&style=social" alt="twitter" />
+  </a>
 </p>
 
 ## What's this?
