@@ -66,7 +66,7 @@ Contact information such as email, telegram, irc, whatsapp etc.
 
 ## Useful Information
 
-Website: https://osl.netlify.app
+Website: https://osl.netlify.app <br>
 Repo: https://github.com/osl-vvce/osl-vvce.github.io <br>
 Tech: HTML initially, but up to the community <br>
 Theme: Light and Elegant
