@@ -1,6 +1,6 @@
 <p align="center">
 <a href="https://osl.vvce.ac.in">
-<img alt="Gatsby" src="https://github.com/osl-vvce/osl-vvce.github.io/blob/master/static/images/logo_light.png" width="60" />
+<img alt="OSL vvce" src="https://raw.githubusercontent.com/osl-vvce/osl-vvce.github.io/master/static/images/logo_light.png" width="60" />
 </a>
 
 </p>
@@ -32,7 +32,7 @@ Anybody! Think of this as a playground where no matter what your skill level, yo
 
 ## What is this project?
 
-Re-developing https://osl-vvce.github.io/
+OSL Website https://osl.netlify.app
 
 ## Features
 
@@ -66,8 +66,9 @@ Contact information such as email, telegram, irc, whatsapp etc.
 
 ## Useful Information
 
-Repo: https://osl-vvce.github.io/
-Tech: HTML initially, but up to the community  
+Website: https://osl.netlify.app
+Repo: https://github.com/osl-vvce/osl-vvce.github.io <br>
+Tech: HTML initially, but up to the community <br>
 Theme: Light and Elegant
 
 ## How to get started?
@@ -77,7 +78,7 @@ Theme: Light and Elegant
 
 ## Technology Stack
 
-[Gatsby.js](https://www.gatsbyjs.org/) <br/>
+[Gatsby.js](https://www.gatsbyjs.org/) <br>
 Try to contribute to Gatsby.js this [Hacktoberfest](https://www.gatsbyjs.org/)!
 
 Happy coding!
