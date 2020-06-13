@@ -12,13 +12,13 @@
     Open Source Lab (also known as OSL ) is a community of passionate college students, who have come together for the cause of promoting and contributing to Free and Open Source.
 </p>
 <p align="center">
-  <img src="https://img.shields.io/github/package-json/v/osl-vvce/osl-vvce.github.io" alt="version" />
-  <img src="https://img.shields.io/github/license/osl-vvce/osl-vvce.github.io" alt="license" />
-  <img src="https://img.shields.io/badge/build-passing-blue" alt="build" />
-  <img src="https://img.shields.io/github/contributors/osl-vvce/osl-vvce.github.io" alt="contributors" />
-  <img src="https://img.shields.io/github/last-commit/osl-vvce/osl-vvce.github.io" alt="last-commit" />
+  <img src="https://img.shields.io/github/package-json/v/osl-vvce/osl-vvce.github.io?style=flat-square&logo=appveyor" alt="version" />
+  <img src="https://img.shields.io/github/license/osl-vvce/osl-vvce.github.io?style=flat-square&logo=appveyor" alt="license" />
+  <img src="https://img.shields.io/badge/build-passing-blue?style=flat-square&logo=appveyor" alt="build" />
+  <img src="https://img.shields.io/github/contributors/osl-vvce/osl-vvce.github.io?style=flat-square&logo=appveyor" alt="contributors" />
+  <img src="https://img.shields.io/github/last-commit/osl-vvce/osl-vvce.github.io?style=flat-square&logo=appveyor" alt="last-commit" />
   <a href="https://twitter.com/osl_vvce">
-    <img src="https://img.shields.io/twitter/follow/osl_vvce?label=Follow%20OSL%20VVCE&style=social" alt="twitter" />
+    <img src="https://img.shields.io/twitter/follow/osl_vvce?label=Follow%20OSL%20VVCE&style=social?style=flat-square&logo=appveyor" alt="twitter" />
   </a>
 </p>
 
