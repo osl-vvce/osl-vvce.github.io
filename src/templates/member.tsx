@@ -37,6 +37,7 @@ export default function member({ location, data }) {
             <div className="md:px-4 mt-12 py-6 md:w-1/3 mx-auto">
                 <div className="mx-auto relative">
                     <Img
+                        className="rounded"
                         fluid={
                             data.mdx.frontmatter.avatar.childImageSharp.fluid
                         }
