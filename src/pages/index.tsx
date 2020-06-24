@@ -90,13 +90,13 @@ const Wall = ({ data }) => {
                     {data.title}
                 </h1>
             </div>
-            <p className="text-lg lg:text-xl text-color-2 pt-4 lg:pt-0">
+            <p className="text-2xl lg:text-4xl text-color-2 pt-4 lg:pt-0">
                 {data.introTag}
             </p>
             <p className="text-base lg:text-lg mt-4">{data.description}</p>
             <ScrollIntoView selector="#portfolio">
                 <Button
-                    title="SEE WORKS"
+                    title="SEE BLOGS"
                     type="button"
                     iconRight={<ArrowRight />}
                 />
@@ -143,7 +143,7 @@ const Wall = ({ data }) => {
 const About = ({ data }) => {
     return (
         <div className="boxed">
-            <div className="px-4 py-10 text-center lg:py-10 lg:px-0">
+            <div className="px-4 py-20 text-center lg:py-10 lg:px-0">
                 <h2 className="text-color-1 font-black text-5xl lg:text-6xl">
                     About
                 </h2>

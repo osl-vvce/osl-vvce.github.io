@@ -1,6 +1,6 @@
 <p align="center">
 <a href="https://osl.vvce.ac.in">
-<img alt="OSL vvce" src="https://raw.githubusercontent.com/osl-vvce/osl-vvce.github.io/master/static/images/logo_light.png" width="60" />
+<img alt="OSL vvce" src="https://raw.githubusercontent.com/osl-vvce/osl-vvce.github.io/master/static/images/logo.png" width="60" />
 </a>
 
 </p>
