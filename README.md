@@ -44,13 +44,13 @@ General introduction to OSL, nothing special just some static information.
 
 #### About Section
 
-Tells about OSL, Who we are, What we do etc, What we have achieved etc.
+Tells about OSL, Who we are, What we do, What we have achieved etc.
 
 ---
 
 #### Members Section
 
-Lists down all the members dynamically based on a yaml file.
+Lists down all the members dynamically based on a mdx file.
 
 ---
 
@@ -62,7 +62,7 @@ All the blogs written by OSL members using markdown are generated using slugs.
 
 #### Contact Section
 
-Contact information such as email, telegram, irc, whatsapp etc.
+Contact information such as email, linkedin, github etc.
 
 ## Useful Information
 
