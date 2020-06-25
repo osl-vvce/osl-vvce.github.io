@@ -28,8 +28,8 @@ export default function member({ location, data }) {
     return (
         <Layout
             seo={{
-                title: data.mdx.frontmatter.title,
-                description: data.mdx.frontmatter.description,
+                title: data.mdx.frontmatter.fullname,
+                description: data.mdx.frontmatter.about,
                 image: data.mdx.frontmatter.avatar.publicURL,
             }}
             location={location}

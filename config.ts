@@ -76,9 +76,14 @@ const siteMetadata = {
             url: "https://www.linkedin.com/company/osl-vvce",
         },
     ],
+    aboutUs: {
+        main: "/images/about/cloud-computing.png",
+        about1: "/images/about/team-meeting.svg",
+        about2: "/images/about/support-team.svg",
+        about3: "/images/about/office-best-achiever.svg",
+    },
     contact: {
-        // leave empty ('') or false to hide form
-        api_url: "https://getform.io/f/f227a36e-096a-4c6a-9963-9f1918a85bb3",
+        api_url: "https://getform.io/f/93b1c53f-0be8-4aa2-ae7c-e16f073c9fc6",
         description: `Hey! Looking for a way to get to us? Contact us using any of the links shared below or just drop by at our place!`,
         mail: "osl@vvce.ac.in",
         phone: "+91 8095699637",
