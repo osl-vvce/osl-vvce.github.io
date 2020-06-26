@@ -3591,21 +3591,21 @@
               "defaultValue": null
             },
             {
-              "name": "branch",
-              "description": "",
-              "type": {
-                "kind": "INPUT_OBJECT",
-                "name": "StringQueryOperatorInput",
-                "ofType": null
-              },
-              "defaultValue": null
-            },
-            {
               "name": "batch",
               "description": "",
               "type": {
                 "kind": "INPUT_OBJECT",
                 "name": "IntQueryOperatorInput",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "branch",
+              "description": "",
+              "type": {
+                "kind": "INPUT_OBJECT",
+                "name": "StringQueryOperatorInput",
                 "ofType": null
               },
               "defaultValue": null
@@ -3672,6 +3672,16 @@
             },
             {
               "name": "linkedin",
+              "description": "",
+              "type": {
+                "kind": "INPUT_OBJECT",
+                "name": "StringQueryOperatorInput",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "tinkdin",
               "description": "",
               "type": {
                 "kind": "INPUT_OBJECT",
@@ -8181,24 +8191,24 @@
               "deprecationReason": null
             },
             {
-              "name": "branch",
-              "description": null,
-              "args": [],
-              "type": {
-                "kind": "SCALAR",
-                "name": "String",
-                "ofType": null
-              },
-              "isDeprecated": false,
-              "deprecationReason": null
-            },
-            {
               "name": "batch",
               "description": null,
               "args": [],
               "type": {
                 "kind": "SCALAR",
                 "name": "Int",
+                "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "branch",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "SCALAR",
+                "name": "String",
                 "ofType": null
               },
               "isDeprecated": false,
@@ -8278,6 +8288,18 @@
             },
             {
               "name": "linkedin",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "tinkdin",
               "description": null,
               "args": [],
               "type": {
@@ -10420,13 +10442,13 @@
               "deprecationReason": null
             },
             {
-              "name": "childMdx___frontmatter___branch",
+              "name": "childMdx___frontmatter___batch",
               "description": null,
               "isDeprecated": false,
               "deprecationReason": null
             },
             {
-              "name": "childMdx___frontmatter___batch",
+              "name": "childMdx___frontmatter___branch",
               "description": null,
               "isDeprecated": false,
               "deprecationReason": null
@@ -10469,6 +10491,12 @@
             },
             {
               "name": "childMdx___frontmatter___linkedin",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "childMdx___frontmatter___tinkdin",
               "description": null,
               "isDeprecated": false,
               "deprecationReason": null
@@ -21772,13 +21800,13 @@
               "deprecationReason": null
             },
             {
-              "name": "frontmatter___branch",
+              "name": "frontmatter___batch",
               "description": null,
               "isDeprecated": false,
               "deprecationReason": null
             },
             {
-              "name": "frontmatter___batch",
+              "name": "frontmatter___branch",
               "description": null,
               "isDeprecated": false,
               "deprecationReason": null
@@ -21821,6 +21849,12 @@
             },
             {
               "name": "frontmatter___linkedin",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "frontmatter___tinkdin",
               "description": null,
               "isDeprecated": false,
               "deprecationReason": null

@@ -1,8 +1,8 @@
 const siteMetadata = {
     title: `Open Source Lab`,
-    siteUrl: `http://localhost`,
+    siteUrl: `https://osl.netlify.app`,
     capitalizeTitleOnHome: true,
-    logo: `/images/logo.png`,
+    logo: `/images/logo.webp`,
     icon: `/images/icon.png`,
     titleImage: `/images/wall3.jpg`,
     ogImage: `/images/wall.png`,

@@ -4,9 +4,9 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import { Disqus } from "gatsby-plugin-disqus"
 import { CommentsQuery } from "./__generated__/CommentsQuery"
-import { WindowLocation } from '@reach/router';
+import { WindowLocation } from "@reach/router"
 
-type CommentsProps = { title: string, location: WindowLocation<{}> };
+type CommentsProps = { title: string; location: WindowLocation<{}> }
 const Comments: React.FC<CommentsProps> = ({ title, location }) => {
     const data = useStaticQuery<CommentsQuery>(graphql`
         query CommentsQuery {
@@ -27,4 +27,4 @@ const Comments: React.FC<CommentsProps> = ({ title, location }) => {
     return <Disqus url={url} title={title} identifier={title} />
 }
 
-export default Comments;
+export default Comments
