@@ -14,11 +14,18 @@
 <p align="center">
   <img src="https://img.shields.io/github/package-json/v/osl-vvce/osl-vvce.github.io?style=flat" alt="version" />
   <img src="https://img.shields.io/github/license/osl-vvce/osl-vvce.github.io?style=flat" alt="license" />
-  <img src="https://img.shields.io/badge/build-passing-blue?style=flat" alt="build" />
   <img src="https://img.shields.io/github/contributors/osl-vvce/osl-vvce.github.io?style=flat" alt="contributors" />
   <img src="https://img.shields.io/github/last-commit/osl-vvce/osl-vvce.github.io?style=flat" alt="last-commit" />
   <a href="https://twitter.com/osl_vvce">
     <img src="https://img.shields.io/twitter/follow/osl_vvce?label=Follow%20OSL%20VVCE&style=social" alt="twitter" />
+  </a>
+</p>
+<p align="center">
+  Built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
+</p>
+<p align="center">
+  <a href="https://app.netlify.com/sites/osl/deploys" target="_blank">
+    <img src="https://api.netlify.com/api/v1/badges/618356e7-27a0-4371-a7c3-d27d0c84cdc8/deploy-status" alt="Netlify Status" />
   </a>
 </p>
 
@@ -73,8 +80,8 @@ Contact information such as email, linkedin, github etc.
 
 ## How to get started?
 
--   Start making small Pull Requests wherever you think you can help. The Management team will be handling the project and adding the features that you create as they come.
--   You can use the **OSL Website** card on Trello to discuss anything related to this project.
+- Start making small Pull Requests wherever you think you can help. The Management team will be handling the project and adding the features that you create as they come.
+- You can use the **OSL Website** card on Trello to discuss anything related to this project.
 
 ## Technology Stack
 
