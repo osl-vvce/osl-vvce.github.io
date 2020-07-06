@@ -25,7 +25,7 @@
 </p>
 <p align="center">
   <a href="https://app.netlify.com/sites/osl/deploys" target="_blank">
-    <img src="https://api.netlify.com/api/v1/badges/618356e7-27a0-4371-a7c3-d27d0c84cdc8/deploy-status" alt="Netlify Status" />
+    <img src="https://api.netlify.com/api/v1/badges/aee0a200-b1cd-4e2e-a5aa-fc1206ac9834/deploy-status" alt="Netlify Status" />
   </a>
 </p>
 
@@ -39,7 +39,7 @@ Anybody! Think of this as a playground where no matter what your skill level, yo
 
 ## What is this project?
 
-OSL Website https://osl.netlify.app
+OSL Website https://oslvvce.com
 
 ## Features
 
@@ -73,7 +73,7 @@ Contact information such as email, linkedin, github etc.
 
 ## Useful Information
 
-**Website:** https://osl.netlify.app <br>
+**Website:** https://oslvvce.com <br>
 **Repo:** https://github.com/osl-vvce/osl-vvce.github.io <br>
 **Tech:** HTML initially, but up to the community <br>
 **Theme:** Light and Elegant
