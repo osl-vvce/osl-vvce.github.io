@@ -57,27 +57,13 @@ export default ({
     const isDarkTheme = query.site.siteMetadata.darkmode
 
     const [theme, changeTheme] = useState(isDarkTheme ? 1 : 0)
-    const [cookieShown, setCookieShown] = useState(false)
 
     useEffect(() => {
         if (localStorage.getItem("theme")) {
             const t = Number(localStorage.getItem("theme"))
             changeTheme(t)
         }
-
-        if (localStorage.getItem("cookie-accept")) {
-            setCookieShown(true)
-        }
     }, [])
-
-    const onCookieAccept = (
-        e: React.MouseEvent<HTMLButtonElement, MouseEvent>
-    ) => {
-        e.preventDefault()
-
-        localStorage.setItem("cookie-accept", "1")
-        setCookieShown(true)
-    }
 
     const switchTheme = () => {
         const next = theme !== themes.length - 1 ? theme + 1 : 0

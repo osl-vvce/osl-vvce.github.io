@@ -1117,6 +1117,26 @@
                   "defaultValue": null
                 },
                 {
+                  "name": "port",
+                  "description": "",
+                  "type": {
+                    "kind": "INPUT_OBJECT",
+                    "name": "DateQueryOperatorInput",
+                    "ofType": null
+                  },
+                  "defaultValue": null
+                },
+                {
+                  "name": "host",
+                  "description": "",
+                  "type": {
+                    "kind": "INPUT_OBJECT",
+                    "name": "StringQueryOperatorInput",
+                    "ofType": null
+                  },
+                  "defaultValue": null
+                },
+                {
                   "name": "polyfill",
                   "description": "",
                   "type": {
@@ -3661,7 +3681,7 @@
               "defaultValue": null
             },
             {
-              "name": "twitter",
+              "name": "linkedin",
               "description": "",
               "type": {
                 "kind": "INPUT_OBJECT",
@@ -3671,7 +3691,7 @@
               "defaultValue": null
             },
             {
-              "name": "linkedin",
+              "name": "twitter",
               "description": "",
               "type": {
                 "kind": "INPUT_OBJECT",
@@ -8275,7 +8295,7 @@
               "deprecationReason": null
             },
             {
-              "name": "twitter",
+              "name": "linkedin",
               "description": null,
               "args": [],
               "type": {
@@ -8287,7 +8307,7 @@
               "deprecationReason": null
             },
             {
-              "name": "linkedin",
+              "name": "twitter",
               "description": null,
               "args": [],
               "type": {
@@ -10484,13 +10504,13 @@
               "deprecationReason": null
             },
             {
-              "name": "childMdx___frontmatter___twitter",
+              "name": "childMdx___frontmatter___linkedin",
               "description": null,
               "isDeprecated": false,
               "deprecationReason": null
             },
             {
-              "name": "childMdx___frontmatter___linkedin",
+              "name": "childMdx___frontmatter___twitter",
               "description": null,
               "isDeprecated": false,
               "deprecationReason": null
@@ -17494,6 +17514,71 @@
               "deprecationReason": null
             },
             {
+              "name": "port",
+              "description": null,
+              "args": [
+                {
+                  "name": "formatString",
+                  "description": "Format the date using Moment.js' date tokens, e.g. `date(formatString: \"YYYY MMMM DD\")`. See https://momentjs.com/docs/#/displaying/format/ for documentation for different tokens.",
+                  "type": {
+                    "kind": "SCALAR",
+                    "name": "String",
+                    "ofType": null
+                  },
+                  "defaultValue": null
+                },
+                {
+                  "name": "fromNow",
+                  "description": "Returns a string generated with Moment.js' `fromNow` function",
+                  "type": {
+                    "kind": "SCALAR",
+                    "name": "Boolean",
+                    "ofType": null
+                  },
+                  "defaultValue": null
+                },
+                {
+                  "name": "difference",
+                  "description": "Returns the difference between this date and the current time. Defaults to \"milliseconds\" but you can also pass in as the measurement \"years\", \"months\", \"weeks\", \"days\", \"hours\", \"minutes\", and \"seconds\".",
+                  "type": {
+                    "kind": "SCALAR",
+                    "name": "String",
+                    "ofType": null
+                  },
+                  "defaultValue": null
+                },
+                {
+                  "name": "locale",
+                  "description": "Configures the locale Moment.js will use to format the date.",
+                  "type": {
+                    "kind": "SCALAR",
+                    "name": "String",
+                    "ofType": null
+                  },
+                  "defaultValue": null
+                }
+              ],
+              "type": {
+                "kind": "SCALAR",
+                "name": "Date",
+                "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "host",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
               "name": "polyfill",
               "description": null,
               "args": [],
@@ -18170,6 +18255,26 @@
               "defaultValue": null
             },
             {
+              "name": "port",
+              "description": "",
+              "type": {
+                "kind": "INPUT_OBJECT",
+                "name": "DateQueryOperatorInput",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "host",
+              "description": "",
+              "type": {
+                "kind": "INPUT_OBJECT",
+                "name": "StringQueryOperatorInput",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
               "name": "polyfill",
               "description": "",
               "type": {
@@ -18505,6 +18610,18 @@
             },
             {
               "name": "siteMetadata___disqus",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "port",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "host",
               "description": null,
               "isDeprecated": false,
               "deprecationReason": null
@@ -21842,13 +21959,13 @@
               "deprecationReason": null
             },
             {
-              "name": "frontmatter___twitter",
+              "name": "frontmatter___linkedin",
               "description": null,
               "isDeprecated": false,
               "deprecationReason": null
             },
             {
-              "name": "frontmatter___linkedin",
+              "name": "frontmatter___twitter",
               "description": null,
               "isDeprecated": false,
               "deprecationReason": null
