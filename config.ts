@@ -1,5 +1,5 @@
 const siteMetadata = {
-    title: `Open Source Lab`,
+    title: `OSL VVCE`,
     siteUrl: `https://osl.netlify.app`,
     capitalizeTitleOnHome: true,
     logo: `/images/logo.webp`,
