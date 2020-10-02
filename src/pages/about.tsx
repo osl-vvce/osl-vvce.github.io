@@ -35,7 +35,10 @@ export default ({ data, location }) => {
                         Who we are?
                     </h3>
                 </div>
-                <div className="flex flex-col md:flex-row">
+                <div className="flex flex-col md:flex-row-reverse">
+                    <div className="w-full">
+                        <img src={aboutData.about1} alt="illustration" />
+                    </div>
                     <div className="w-full flex flex-col justify-center">
                         <p className="mb-4">
                             Open Source Lab (also known as OSL ) is a community
@@ -55,9 +58,6 @@ export default ({ data, location }) => {
                             with the help of research scholars, alumni, and
                             faculties.
                         </p>
-                    </div>
-                    <div className="w-full">
-                        <img src={aboutData.about1} alt="illustration" />
                     </div>
                 </div>
                 <div className="title py-6 text-center">
@@ -94,7 +94,10 @@ export default ({ data, location }) => {
                         What we have achieved?
                     </h3>
                 </div>
-                <div className="flex flex-col md:flex-row">
+                <div className="flex flex-col md:flex-row-reverse">
+                    <div className="w-full">
+                        <img src={aboutData.about3} alt="illustration" />
+                    </div>
                     <div className="w-full flex flex-col justify-center">
                         <p className="mb-4">
                             The club has become one of the forerunners in
@@ -115,9 +118,6 @@ export default ({ data, location }) => {
                             summer schools at global universities, and paid
                             internships at top companies.
                         </p>
-                    </div>
-                    <div className="w-full">
-                        <img src={aboutData.about3} alt="illustration" />
                     </div>
                 </div>
             </div>
