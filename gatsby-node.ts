@@ -51,6 +51,15 @@ export const createPages: GatsbyNode["createPages"] = async ({
                     }
                 }
             }
+            events: allMdx(
+                filter: { fields: { sourceName: { eq: "events" } } }
+            ) {
+                edges {
+                    node {
+                        id
+                    }
+                }
+            }
             member: allMdx(
                 filter: { fields: { sourceName: { eq: "member" } } }
             ) {
@@ -72,12 +81,13 @@ export const createPages: GatsbyNode["createPages"] = async ({
             limitPost: site {
                 siteMetadata {
                     blogItemsPerPage
+                    eventItemsPerPage
                     memberItemsPerPage
                     portfolioItemsPerPage
                 }
             }
         }
-    `).then(result => {
+    `).then((result) => {
         result.data.all.edges.forEach(({ node }) => {
             let template = node.fields.sourceName
             createPage({
@@ -107,7 +117,23 @@ export const createPages: GatsbyNode["createPages"] = async ({
             })
         })
 
-        console.log(result.data)
+        const eventPosts = result.data.blog.edges
+        const eventItemsPerPage =
+            result.data.limitPost.siteMetadata.eventItemsPerPage
+        const numEventPages = Math.ceil(eventPosts.length / eventItemsPerPage)
+
+        Array.from({ length: numEventPages }).forEach((_, i) => {
+            createPage({
+                path: i === 0 ? `/events` : `/events/${i + 1}`,
+                component: path.resolve("./src/templates/events-list.tsx"),
+                context: {
+                    limit: eventItemsPerPage,
+                    skip: i * eventItemsPerPage,
+                    numPages: numBlogPages,
+                    currentPage: i + 1,
+                },
+            })
+        })
 
         const memberItems = result.data.member.edges
         const memberItemsPerPage =
