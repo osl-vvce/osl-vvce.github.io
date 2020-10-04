@@ -13,6 +13,7 @@ const siteMetadata = {
         "OSL, a student-run community with over 20+ members from Vidyavardhaka College of Engineering, Mysuru, over the last 2 years, has helped 100+ passionate students to transform into successful & innovative engineers who today work across the world in Fortune 500 Companies loving what they do.",
     author: `@osl_vvce`,
     blogItemsPerPage: 10,
+    eventItemsPerPage: 10,
     memberItemsPerPage: 20,
     portfolioItemsPerPage: 10,
     darkmode: true,
@@ -29,6 +30,10 @@ const siteMetadata = {
         {
             name: "BLOG",
             url: "/blog",
+        },
+        {
+            name: "EVENTS",
+            url: "/events",
         },
         {
             name: "MEMBERS",
@@ -92,7 +97,7 @@ const siteMetadata = {
     disqus: "osl-netlify-app",
 }
 
-const beforeContactFormSubmit = data => {
+const beforeContactFormSubmit = (data) => {
     // Code 0 - success
     // Code 1 - Name
     // Code 2 - Email
@@ -168,7 +173,7 @@ const defaults = {
     capitalizeTitleOnHome: true,
 }
 
-Object.keys(defaults).forEach(item => {
+Object.keys(defaults).forEach((item) => {
     if (siteMetadata[item] === undefined) {
         siteMetadata[item] = defaults[item]
     }

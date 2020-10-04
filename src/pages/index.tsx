@@ -23,7 +23,7 @@ export default ({ data, location }: PageProps<IndexPageQuery>) => {
         />
     ))
 
-    const blogList = data.blog.edges.map(item => (
+    const blogList = data.blog.edges.map((item) => (
         <ItemBlog data={item.node} key={`b-item-index-${item.node.id}`} />
     ))
 
