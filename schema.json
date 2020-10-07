@@ -3601,31 +3601,21 @@
               "defaultValue": null
             },
             {
-              "name": "tagline",
-              "description": "",
-              "type": {
-                "kind": "INPUT_OBJECT",
-                "name": "StringQueryOperatorInput",
-                "ofType": null
-              },
-              "defaultValue": null
-            },
-            {
-              "name": "about",
-              "description": "",
-              "type": {
-                "kind": "INPUT_OBJECT",
-                "name": "StringQueryOperatorInput",
-                "ofType": null
-              },
-              "defaultValue": null
-            },
-            {
               "name": "role",
               "description": "",
               "type": {
                 "kind": "INPUT_OBJECT",
                 "name": "StringQueryOperatorInput",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "batch",
+              "description": "",
+              "type": {
+                "kind": "INPUT_OBJECT",
+                "name": "IntQueryOperatorInput",
                 "ofType": null
               },
               "defaultValue": null
@@ -3641,11 +3631,21 @@
               "defaultValue": null
             },
             {
-              "name": "batch",
+              "name": "tagline",
               "description": "",
               "type": {
                 "kind": "INPUT_OBJECT",
-                "name": "IntQueryOperatorInput",
+                "name": "StringQueryOperatorInput",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "about",
+              "description": "",
+              "type": {
+                "kind": "INPUT_OBJECT",
+                "name": "StringQueryOperatorInput",
                 "ofType": null
               },
               "defaultValue": null
@@ -8199,36 +8199,24 @@
               "deprecationReason": null
             },
             {
-              "name": "tagline",
-              "description": null,
-              "args": [],
-              "type": {
-                "kind": "SCALAR",
-                "name": "String",
-                "ofType": null
-              },
-              "isDeprecated": false,
-              "deprecationReason": null
-            },
-            {
-              "name": "about",
-              "description": null,
-              "args": [],
-              "type": {
-                "kind": "SCALAR",
-                "name": "String",
-                "ofType": null
-              },
-              "isDeprecated": false,
-              "deprecationReason": null
-            },
-            {
               "name": "role",
               "description": null,
               "args": [],
               "type": {
                 "kind": "SCALAR",
                 "name": "String",
+                "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "batch",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "SCALAR",
+                "name": "Int",
                 "ofType": null
               },
               "isDeprecated": false,
@@ -8247,12 +8235,24 @@
               "deprecationReason": null
             },
             {
-              "name": "batch",
+              "name": "tagline",
               "description": null,
               "args": [],
               "type": {
                 "kind": "SCALAR",
-                "name": "Int",
+                "name": "String",
+                "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "about",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "SCALAR",
+                "name": "String",
                 "ofType": null
               },
               "isDeprecated": false,
@@ -10456,19 +10456,13 @@
               "deprecationReason": null
             },
             {
-              "name": "childMdx___frontmatter___tagline",
-              "description": null,
-              "isDeprecated": false,
-              "deprecationReason": null
-            },
-            {
-              "name": "childMdx___frontmatter___about",
-              "description": null,
-              "isDeprecated": false,
-              "deprecationReason": null
-            },
-            {
               "name": "childMdx___frontmatter___role",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "childMdx___frontmatter___batch",
               "description": null,
               "isDeprecated": false,
               "deprecationReason": null
@@ -10480,7 +10474,13 @@
               "deprecationReason": null
             },
             {
-              "name": "childMdx___frontmatter___batch",
+              "name": "childMdx___frontmatter___tagline",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "childMdx___frontmatter___about",
               "description": null,
               "isDeprecated": false,
               "deprecationReason": null
@@ -21939,19 +21939,13 @@
               "deprecationReason": "Sorting on fields that need arguments to resolve is deprecated."
             },
             {
-              "name": "frontmatter___tagline",
-              "description": null,
-              "isDeprecated": false,
-              "deprecationReason": null
-            },
-            {
-              "name": "frontmatter___about",
-              "description": null,
-              "isDeprecated": false,
-              "deprecationReason": null
-            },
-            {
               "name": "frontmatter___role",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "frontmatter___batch",
               "description": null,
               "isDeprecated": false,
               "deprecationReason": null
@@ -21963,7 +21957,13 @@
               "deprecationReason": null
             },
             {
-              "name": "frontmatter___batch",
+              "name": "frontmatter___tagline",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "frontmatter___about",
               "description": null,
               "isDeprecated": false,
               "deprecationReason": null

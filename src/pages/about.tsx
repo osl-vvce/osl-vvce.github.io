@@ -120,6 +120,49 @@ export default ({ data, location }) => {
                         </p>
                     </div>
                 </div>
+                <div className="title py-6 text-center">
+                    <h3 className="font-black text-5xl text-color-1">
+                        Faculty Coordinators
+                    </h3>
+                </div>
+                <div className="flex flex-col md:flex-row justify-center">
+                    <div className="w-full text-center">
+                        <img
+                            src="https://vvce.ac.in/wp-content/uploads/2020/01/Pavan-CS-300x300.jpg"
+                            alt="faculty"
+                            className="mx-auto"
+                        />
+                        <h4>Pavan Kumar S P</h4>
+                        <h5>Assistant Professor</h5>
+                    </div>
+                    <div className="w-full text-center">
+                        <img
+                            src="https://vvce.ac.in/wp-content/uploads/2020/01/Rakesh-CS-300x300.jpg"
+                            alt="faculty"
+                            className="mx-auto"
+                        />
+                        <h4>Rakesh K R</h4>
+                        <h5>Assistant Professor</h5>
+                    </div>
+                    <div className="w-full text-center">
+                        <img
+                            src="https://vvce.ac.in/wp-content/uploads/2020/01/Ambika-CS-300x300.jpg"
+                            alt="faculty"
+                            className="mx-auto"
+                        />
+                        <h4>Ambika V</h4>
+                        <h5>Assistant Professor</h5>
+                    </div>
+                    <div className="w-full text-center object-cover">
+                        <img
+                            src="https://vvce.ac.in/wp-content/uploads/2020/10/IMG-1894-241x300.jpg"
+                            alt="faculty"
+                            className="mx-auto md:h-40 lg:h-48 xl:h-64"
+                        />
+                        <h4>Vidya N L</h4>
+                        <h5>Assistant Professor</h5>
+                    </div>
+                </div>
             </div>
         </Layout>
     )
