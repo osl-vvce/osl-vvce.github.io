@@ -58,6 +58,12 @@ const plugins = [
         },
     },
     {
+        resolve: `gatsby-plugin-google-analytics`,
+        options: {
+          trackingId: "UA-163440650-1",
+        },
+      },
+    {
         resolve: `gatsby-plugin-postcss`,
         options: {
             postCssPlugins: [
