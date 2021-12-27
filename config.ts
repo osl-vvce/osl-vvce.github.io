@@ -86,6 +86,11 @@ const siteMetadata = {
         about1: "/images/about/team-meeting.svg",
         about2: "/images/about/support-team.svg",
         about3: "/images/about/office-best-achiever.svg",
+        member1: "/images/about/madhurish.jpg",
+        member2: "/images/about/harsha.jpg",
+        member3: "/images/about/pavan.jpg",
+        member4: "/images/about/darshan.jpg",
+        member5: "/images/about/rahul.png",
     },
     contact: {
         api_url: "https://getform.io/f/93b1c53f-0be8-4aa2-ae7c-e16f073c9fc6",
@@ -97,7 +102,7 @@ const siteMetadata = {
     disqus: "osl-netlify-app",
 }
 
-const beforeContactFormSubmit = (data) => {
+const beforeContactFormSubmit = data => {
     // Code 0 - success
     // Code 1 - Name
     // Code 2 - Email
@@ -173,7 +178,7 @@ const defaults = {
     capitalizeTitleOnHome: true,
 }
 
-Object.keys(defaults).forEach((item) => {
+Object.keys(defaults).forEach(item => {
     if (siteMetadata[item] === undefined) {
         siteMetadata[item] = defaults[item]
     }

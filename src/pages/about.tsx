@@ -122,6 +122,55 @@ export default ({ data, location }) => {
                 </div>
                 <div className="title py-6 text-center">
                     <h3 className="font-black text-5xl text-color-1">
+                        Founders
+                    </h3>
+                </div>
+                <div className="flex flex-col md:flex-row justify-center">
+                    <div className="w-full text-center">
+                        <img
+                            src={aboutData.member1}
+                            alt="member"
+                            className="mx-auto object-cover h-64 w-64"
+                        />
+                        <h4 className="text-2xl">Madhurish</h4>
+                    </div>
+                    <div className="w-full text-center">
+                        <img
+                            src={aboutData.member2}
+                            alt="member"
+                            className="mx-auto object-cover h-64 w-64"
+                        />
+                        <h4 className="text-2xl">Harsha</h4>
+                    </div>
+                    <div className="w-full text-center">
+                        <img
+                            src={aboutData.member3}
+                            alt="member"
+                            className="mx-auto object-cover h-64 w-64"
+                        />
+                        <h4 className="text-2xl">Pavan</h4>
+                    </div>
+                </div>
+                <div className="flex flex-col py-3 md:flex-row justify-center">
+                    <div className="w-full text-center">
+                        <img
+                            src={aboutData.member4}
+                            alt="member"
+                            className="mx-auto object-cover h-64 w-64"
+                        />
+                        <h4 className="text-2xl">Darshan</h4>
+                    </div>
+                    <div className="w-full text-center">
+                        <img
+                            src={aboutData.member5}
+                            alt="member"
+                            className="mx-auto object-cover h-64 w-64"
+                        />
+                        <h4 className="text-2xl">Rahul</h4>
+                    </div>
+                </div>
+                <div className="title py-6 text-center">
+                    <h3 className="font-black text-5xl text-color-1">
                         Faculty Coordinators
                     </h3>
                 </div>
@@ -159,6 +208,11 @@ export const querry = graphql`
                     about1
                     about2
                     about3
+                    member1
+                    member2
+                    member3
+                    member4
+                    member5
                 }
             }
         }

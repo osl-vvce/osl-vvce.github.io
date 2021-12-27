@@ -3641,7 +3641,37 @@
               "defaultValue": null
             },
             {
+              "name": "tagline",
+              "description": "",
+              "type": {
+                "kind": "INPUT_OBJECT",
+                "name": "StringQueryOperatorInput",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "about",
+              "description": "",
+              "type": {
+                "kind": "INPUT_OBJECT",
+                "name": "StringQueryOperatorInput",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
               "name": "role",
+              "description": "",
+              "type": {
+                "kind": "INPUT_OBJECT",
+                "name": "StringQueryOperatorInput",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "branch",
               "description": "",
               "type": {
                 "kind": "INPUT_OBJECT",
@@ -3661,37 +3691,7 @@
               "defaultValue": null
             },
             {
-              "name": "branch",
-              "description": "",
-              "type": {
-                "kind": "INPUT_OBJECT",
-                "name": "StringQueryOperatorInput",
-                "ofType": null
-              },
-              "defaultValue": null
-            },
-            {
-              "name": "tagline",
-              "description": "",
-              "type": {
-                "kind": "INPUT_OBJECT",
-                "name": "StringQueryOperatorInput",
-                "ofType": null
-              },
-              "defaultValue": null
-            },
-            {
               "name": "github",
-              "description": "",
-              "type": {
-                "kind": "INPUT_OBJECT",
-                "name": "StringQueryOperatorInput",
-                "ofType": null
-              },
-              "defaultValue": null
-            },
-            {
-              "name": "twitter",
               "description": "",
               "type": {
                 "kind": "INPUT_OBJECT",
@@ -3711,16 +3711,6 @@
               "defaultValue": null
             },
             {
-              "name": "linkedin",
-              "description": "",
-              "type": {
-                "kind": "INPUT_OBJECT",
-                "name": "StringQueryOperatorInput",
-                "ofType": null
-              },
-              "defaultValue": null
-            },
-            {
               "name": "instagram",
               "description": "",
               "type": {
@@ -3731,7 +3721,17 @@
               "defaultValue": null
             },
             {
-              "name": "about",
+              "name": "linkedin",
+              "description": "",
+              "type": {
+                "kind": "INPUT_OBJECT",
+                "name": "StringQueryOperatorInput",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "twitter",
               "description": "",
               "type": {
                 "kind": "INPUT_OBJECT",
@@ -8283,7 +8283,43 @@
               "deprecationReason": null
             },
             {
+              "name": "tagline",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "about",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
               "name": "role",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "branch",
               "description": null,
               "args": [],
               "type": {
@@ -8307,43 +8343,7 @@
               "deprecationReason": null
             },
             {
-              "name": "branch",
-              "description": null,
-              "args": [],
-              "type": {
-                "kind": "SCALAR",
-                "name": "String",
-                "ofType": null
-              },
-              "isDeprecated": false,
-              "deprecationReason": null
-            },
-            {
-              "name": "tagline",
-              "description": null,
-              "args": [],
-              "type": {
-                "kind": "SCALAR",
-                "name": "String",
-                "ofType": null
-              },
-              "isDeprecated": false,
-              "deprecationReason": null
-            },
-            {
               "name": "github",
-              "description": null,
-              "args": [],
-              "type": {
-                "kind": "SCALAR",
-                "name": "String",
-                "ofType": null
-              },
-              "isDeprecated": false,
-              "deprecationReason": null
-            },
-            {
-              "name": "twitter",
               "description": null,
               "args": [],
               "type": {
@@ -8367,18 +8367,6 @@
               "deprecationReason": null
             },
             {
-              "name": "linkedin",
-              "description": null,
-              "args": [],
-              "type": {
-                "kind": "SCALAR",
-                "name": "String",
-                "ofType": null
-              },
-              "isDeprecated": false,
-              "deprecationReason": null
-            },
-            {
               "name": "instagram",
               "description": null,
               "args": [],
@@ -8391,7 +8379,19 @@
               "deprecationReason": null
             },
             {
-              "name": "about",
+              "name": "linkedin",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "twitter",
               "description": null,
               "args": [],
               "type": {
@@ -10588,13 +10588,19 @@
               "deprecationReason": null
             },
             {
-              "name": "childMdx___frontmatter___role",
+              "name": "childMdx___frontmatter___tagline",
               "description": null,
               "isDeprecated": false,
               "deprecationReason": null
             },
             {
-              "name": "childMdx___frontmatter___batch",
+              "name": "childMdx___frontmatter___about",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "childMdx___frontmatter___role",
               "description": null,
               "isDeprecated": false,
               "deprecationReason": null
@@ -10606,7 +10612,7 @@
               "deprecationReason": null
             },
             {
-              "name": "childMdx___frontmatter___tagline",
+              "name": "childMdx___frontmatter___batch",
               "description": null,
               "isDeprecated": false,
               "deprecationReason": null
@@ -10618,19 +10624,7 @@
               "deprecationReason": null
             },
             {
-              "name": "childMdx___frontmatter___twitter",
-              "description": null,
-              "isDeprecated": false,
-              "deprecationReason": null
-            },
-            {
               "name": "childMdx___frontmatter___facebook",
-              "description": null,
-              "isDeprecated": false,
-              "deprecationReason": null
-            },
-            {
-              "name": "childMdx___frontmatter___linkedin",
               "description": null,
               "isDeprecated": false,
               "deprecationReason": null
@@ -10642,7 +10636,13 @@
               "deprecationReason": null
             },
             {
-              "name": "childMdx___frontmatter___about",
+              "name": "childMdx___frontmatter___linkedin",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "childMdx___frontmatter___twitter",
               "description": null,
               "isDeprecated": false,
               "deprecationReason": null
@@ -17602,6 +17602,56 @@
                 "ofType": null
               },
               "defaultValue": null
+            },
+            {
+              "name": "member1",
+              "description": "",
+              "type": {
+                "kind": "INPUT_OBJECT",
+                "name": "StringQueryOperatorInput",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "member2",
+              "description": "",
+              "type": {
+                "kind": "INPUT_OBJECT",
+                "name": "StringQueryOperatorInput",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "member3",
+              "description": "",
+              "type": {
+                "kind": "INPUT_OBJECT",
+                "name": "StringQueryOperatorInput",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "member4",
+              "description": "",
+              "type": {
+                "kind": "INPUT_OBJECT",
+                "name": "StringQueryOperatorInput",
+                "ofType": null
+              },
+              "defaultValue": null
+            },
+            {
+              "name": "member5",
+              "description": "",
+              "type": {
+                "kind": "INPUT_OBJECT",
+                "name": "StringQueryOperatorInput",
+                "ofType": null
+              },
+              "defaultValue": null
             }
           ],
           "interfaces": null,
@@ -18388,6 +18438,66 @@
               },
               "isDeprecated": false,
               "deprecationReason": null
+            },
+            {
+              "name": "member1",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "member2",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "member3",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "member4",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "member5",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
             }
           ],
           "inputFields": null,
@@ -18818,6 +18928,36 @@
             },
             {
               "name": "siteMetadata___aboutUs___about3",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "siteMetadata___aboutUs___member1",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "siteMetadata___aboutUs___member2",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "siteMetadata___aboutUs___member3",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "siteMetadata___aboutUs___member4",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "siteMetadata___aboutUs___member5",
               "description": null,
               "isDeprecated": false,
               "deprecationReason": null
@@ -22191,13 +22331,19 @@
               "deprecationReason": "Sorting on fields that need arguments to resolve is deprecated."
             },
             {
-              "name": "frontmatter___role",
+              "name": "frontmatter___tagline",
               "description": null,
               "isDeprecated": false,
               "deprecationReason": null
             },
             {
-              "name": "frontmatter___batch",
+              "name": "frontmatter___about",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "frontmatter___role",
               "description": null,
               "isDeprecated": false,
               "deprecationReason": null
@@ -22209,7 +22355,7 @@
               "deprecationReason": null
             },
             {
-              "name": "frontmatter___tagline",
+              "name": "frontmatter___batch",
               "description": null,
               "isDeprecated": false,
               "deprecationReason": null
@@ -22221,19 +22367,7 @@
               "deprecationReason": null
             },
             {
-              "name": "frontmatter___twitter",
-              "description": null,
-              "isDeprecated": false,
-              "deprecationReason": null
-            },
-            {
               "name": "frontmatter___facebook",
-              "description": null,
-              "isDeprecated": false,
-              "deprecationReason": null
-            },
-            {
-              "name": "frontmatter___linkedin",
               "description": null,
               "isDeprecated": false,
               "deprecationReason": null
@@ -22245,7 +22379,13 @@
               "deprecationReason": null
             },
             {
-              "name": "frontmatter___about",
+              "name": "frontmatter___linkedin",
+              "description": null,
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "frontmatter___twitter",
               "description": null,
               "isDeprecated": false,
               "deprecationReason": null
