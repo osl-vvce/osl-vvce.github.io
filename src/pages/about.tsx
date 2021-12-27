@@ -144,24 +144,6 @@ export default ({ data, location }) => {
                         <h4>Rakesh K R</h4>
                         <h5>Assistant Professor</h5>
                     </div>
-                    <div className="w-full text-center">
-                        <img
-                            src="https://vvce.ac.in/wp-content/uploads/2020/01/Ambika-CS-300x300.jpg"
-                            alt="faculty"
-                            className="mx-auto"
-                        />
-                        <h4>Ambika V</h4>
-                        <h5>Assistant Professor</h5>
-                    </div>
-                    <div className="w-full text-center object-cover">
-                        <img
-                            src="https://vvce.ac.in/wp-content/uploads/2020/10/IMG-1894-241x300.jpg"
-                            alt="faculty"
-                            className="mx-auto md:h-40 lg:h-48 xl:h-64"
-                        />
-                        <h4>Vidya N L</h4>
-                        <h5>Assistant Professor</h5>
-                    </div>
                 </div>
             </div>
         </Layout>
