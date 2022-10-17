@@ -68,7 +68,7 @@ const siteMetadata = {
         {
             name: "Instagram",
             icon: "/images/instagram.svg",
-            url: "https://www.instagram.com/osl_vvce",
+            url: "https://www.instagram.com/osl.vvce",
         },
         {
             name: "Github",
