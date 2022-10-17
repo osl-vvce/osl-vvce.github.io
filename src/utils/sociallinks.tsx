@@ -7,6 +7,7 @@ const ListItem = ({ data }) => {
             <a
                 href={data.url}
                 title={data.name}
+                target="_blank"
                 className="rounded-full inline-block transition-shadow duration-300 hover:shadow-2xl"
             >
                 <img src={data.icon} alt={data.name} className="block w-12" />
